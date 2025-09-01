@@ -11,6 +11,6 @@ with st.form("summarize"):
         "Enter text to summarize - word limit 10,000",
         "",
     )
-    submitted = st.form_submit_button("Submit")
+    submitted = st.form_submit_button("Summarize")
     if submitted:
         generate_response(text)
